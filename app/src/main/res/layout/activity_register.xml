@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Register">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="70dp"
+        android:textStyle="bold"
+        android:textColor="@color/brown"
+        android:textSize="40dp"
+        android:text="Register" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/brown"
+        app:hintTextColor="@color/brown"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:id="@+id/etName"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Name"
+            android:textStyle="italic"
+            android:textColor="@color/brown"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/brown"
+        app:hintTextColor="@color/brown"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:id="@+id/etMail"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Mail Address"
+            android:inputType="textEmailAddress"
+            android:textStyle="italic"
+            android:textColor="@color/brown"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/brown"
+        app:hintTextColor="@color/brown"
+        android:layout_gravity="center"
+        android:layout_margin="0dp"
+        android:id="@+id/etUniqid"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Uniqe id"
+            android:textStyle="italic"
+            android:textColor="@color/brown"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/brown"
+        app:hintTextColor="@color/brown"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:id="@+id/etPass"
+        app:endIconMode="password_toggle"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Password"
+            android:inputType="textPassword"
+            android:textStyle="italic"
+            android:textColor="@color/brown"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/brown"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Have An Account?"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/brown"
+        />
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:textColor="@color/brown"
+        />
+
+</LinearLayout>

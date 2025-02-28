@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "601996729657",
+    "project_id": "conatact-manager",
+    "storage_bucket": "conatact-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601996729657:android:4ccf02f857a69352519ce8",
+        "android_client_info": {
+          "package_name": "com.example.conatactmanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq2wUa0d7INhDjinq9Q9Eqo0LM8JhMVB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

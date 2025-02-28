@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".ContactFind">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Find Contact"
+        android:textColor="@color/brown"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/brown"
+        app:hintTextColor="@color/brown"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:id="@+id/etPhone"><com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:textStyle="italic"
+        android:textColor="@color/brown"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btnFind"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/brown"
+        android:text="FIND"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/brown"
+        android:textSize="20dp"/>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        app:menu="@menu/items" />
+
+</LinearLayout>
